@@ -1,0 +1,32 @@
+body {
+  background-color: #0cbde4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#weather-info {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+a {
+  color: green; /* Change the link color to green */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
